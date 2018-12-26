@@ -1,0 +1,136 @@
+13:56:22.051199	 at 0	Elevator Idle
+
+
+Log File Elevator:
+Begin Time set:	13:56:22.046038
+Capacity Set: 10
+Floor Set: 0
+Building Capacity Set: 11
+Elevator Speed Set: 3
+Space Between Floors Set: 3
+Door Open\Close Time Set: 5
+Avg Passanger Time Set: 4
+
+13:56:30.982969	 at 8	Start Moving
+13:56:30.983832	 at 8	Elevator Acsending
+13:56:30.973051	 at 8	Request with ID 0 : Source  (3), Destination  (11), #OfPassangers (3)	added
+13:56:31.021285	 at 8	Elevator Initiated...
+13:56:34.169844	 at 11	Opening Door
+13:56:39.180050	 at 16	Passengers Entering
+13:56:43.184725	 at 20	Closing Door
+13:56:43.453833	 at 20	Request Rejected:	 Source or Destination out of bounds!
+13:56:48.189559	 at 25	Elevator Acsending
+13:56:48.792656	 at 26	Request Rejected:	 Source or Destination out of bounds!
+09:41:58.624671	 at 0	Elevator Idle
+
+
+Log File Elevator:
+Begin Time set:	09:41:58.618606
+Capacity Set: 10
+Floor Set: 0
+Building Capacity Set: 11
+Elevator Speed Set: 3
+Space Between Floors Set: 3
+Door Open\Close Time Set: 5
+Avg Passanger Time Set: 4
+
+10:23:14.334285	 at 0	Elevator Idle
+
+
+Log File Elevator:
+Begin Time set:	10:23:14.320965
+Capacity Set: 10
+Floor Set: 0
+Building Capacity Set: 11
+Elevator Speed Set: 3
+Space Between Floors Set: 3
+Door Open\Close Time Set: 5
+Avg Passanger Time Set: 4
+
+10:23:23.201240	 at 8	Start Moving
+10:23:23.202203	 at 8	Elevator Acsending
+10:23:23.201763	 at 8	Elevator Initiated...
+10:23:23.186568	 at 8	Request with ID 0 : Source  (3), Destination  (5), #OfPassangers (3)	added
+10:23:26.370259	 at 11	Opening Door
+10:23:31.370994	 at 16	Passengers Entering
+10:23:35.374154	 at 20	Closing Door
+10:23:40.379193	 at 25	Elevator Acsending
+10:23:42.521528	 at 27	Opening Door
+10:23:47.527157	 at 32	Passengers Exiting
+10:23:51.528826	 at 36	Closing Door
+10:23:56.533978	 at 41	Request with ID 1 : Source  (5), Destination  (0), #OfPassangers (0)	added
+10:23:56.536931	 at 41	Elevator Idle
+10:23:56.634817	 at 41	Finished Requests...
+10:23:56.636895	 at 41	Start Moving
+10:23:56.636834	 at 41	Elevator Initiated...
+10:23:56.637048	 at 41	Elevator Descending
+10:24:01.746408	 at 46	Elevator Idle
+10:24:01.849136	 at 47	Finished Requests...
+10:32:13.294773	 at 0	Elevator Idle
+
+
+Log File Elevator:
+Begin Time set:	10:32:13.289693
+Capacity Set: 10
+Floor Set: 0
+Building Capacity Set: 11
+Elevator Speed Set: 3
+Space Between Floors Set: 3
+Door Open\Close Time Set: 5
+Avg Passanger Time Set: 4
+
+10:32:24.315590	 at 10	Start Moving
+10:32:24.316471	 at 10	Elevator Acsending
+10:32:24.305579	 at 10	Request with ID 0 : Source  (3), Destination  (6), #OfPassangers (3)	added
+10:32:24.371749	 at 10	Elevator Initiated...
+10:32:27.500137	 at 13	Opening Door
+10:32:32.501461	 at 18	Passengers Entering
+10:32:36.505912	 at 22	Closing Door
+10:32:41.508519	 at 27	Elevator Acsending
+10:32:41.681358	 at 27	Request with ID 1 : Source  (4), Destination  (2), #OfPassangers (5)	added
+10:32:44.622283	 at 30	Opening Door
+10:32:49.623951	 at 35	Passengers Exiting
+10:32:53.625804	 at 39	Closing Door
+10:32:58.628558	 at 44	Start Moving
+10:32:58.629214	 at 44	Elevator Descending
+10:33:00.732472	 at 46	Opening Door
+10:33:05.735411	 at 51	Passengers Entering
+10:33:09.736168	 at 55	Closing Door
+10:33:14.741727	 at 60	Elevator Descending
+10:33:16.844861	 at 63	Opening Door
+10:33:21.846536	 at 68	Passengers Exiting
+10:33:25.849802	 at 72	Closing Door
+10:33:30.854158	 at 77	Request with ID 0 : Source  (2), Destination  (0), #OfPassangers (0)	added
+10:33:30.854582	 at 77	Elevator Idle
+10:33:30.953804	 at 77	Finished Requests...
+10:33:30.954994	 at 77	Start Moving
+10:33:30.954936	 at 77	Elevator Initiated...
+10:33:30.955321	 at 77	Elevator Descending
+10:33:33.064472	 at 79	Elevator Idle
+10:33:33.168633	 at 79	Finished Requests...
+10:37:05.482846	 at 0	Elevator Idle
+
+
+Log File Elevator:
+Begin Time set:	10:37:05.466693
+Capacity Set: 10
+Floor Set: 0
+Building Capacity Set: 11
+Elevator Speed Set: 3
+Space Between Floors Set: 3
+Door Open\Close Time Set: 5
+Avg Passanger Time Set: 4
+
+18:06:12.211	 at 0	Elevator Idle
+
+
+Log File Elevator:
+Begin Time set:	18:06:12.210
+Capacity Set: 10
+Floor Set: 0
+Building Capacity Set: 11
+Elevator Speed Set: 3
+Space Between Floors Set: 3
+Door Open\Close Time Set: 5
+Avg Passanger Time Set: 4
+

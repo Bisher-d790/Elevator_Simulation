@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/9.0.4"
+            fx:controller="ElevatorSimulator.Controller">
+    <children>
+        <ImageView fx:id="arrowUpImg" fitHeight="152.0" fitWidth="150.0" layoutX="25.0" layoutY="104.0"
+                   pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@/Images/ArrowGrey.png"/>
+            </image>
+        </ImageView>
+        <ImageView fx:id="arrowDownImg" fitHeight="152.0" fitWidth="150.0" layoutX="25.0" layoutY="257.0"
+                   pickOnBounds="true" preserveRatio="true" rotate="180.0">
+            <image>
+                <Image url="@/Images/ArrowGrey.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="99.0" fitWidth="702.0" layoutX="101.0" layoutY="562.0">
+            <image>
+                <Image url="@../Images/BGText.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="391.0" fitWidth="521.0" layoutX="206.0" layoutY="60.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@/Images/LevelBG.png"/>
+            </image>
+        </ImageView>
+        <Text fx:id="operationText" fill="WHITE" layoutX="142.0" layoutY="630.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="Lorem Ipsum" textAlignment="JUSTIFY" wrappingWidth="628.6037317724789">
+            <font>
+                <Font name="Digital-7" size="50.0"/>
+            </font>
+        </Text>
+        <Text layoutX="77.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Operation:">
+            <font>
+                <Font name="Digital-7" size="35.0"/>
+            </font>
+        </Text>
+        <Text layoutX="841.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Source:">
+            <font>
+                <Font name="Digital-7" size="35.0"/>
+            </font>
+        </Text>
+        <Text layoutX="780.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Destination:">
+            <font>
+                <Font name="Digital-7" size="35.0"/>
+            </font>
+        </Text>
+        <Text layoutX="787.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No. of people   :"
+              textAlignment="JUSTIFY" wrappingWidth="157.48187255859375">
+            <font>
+                <Font name="Digital-7" size="35.0"/>
+            </font>
+        </Text>
+        <Text layoutX="837.0" layoutY="652.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capacity:"
+              textAlignment="JUSTIFY" wrappingWidth="246.15948486328125">
+            <font>
+                <Font name="Digital-7" size="63.0"/>
+            </font>
+        </Text>
+        <Text layoutX="953.0" layoutY="741.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time:"
+              textAlignment="JUSTIFY" wrappingWidth="113.14306640625">
+            <font>
+                <Font name="Digital-7" size="63.0"/>
+            </font>
+        </Text>
+        <TextField fx:id="sourceInput" layoutX="959.0" layoutY="81.0" prefHeight="43.0" prefWidth="272.0"/>
+        <TextField fx:id="destInput" layoutX="960.0" layoutY="177.0" prefHeight="43.0" prefWidth="272.0"/>
+        <TextField fx:id="nOfPeopleInput" layoutX="961.0" layoutY="283.0" prefHeight="43.0" prefWidth="272.0"/>
+        <Button fx:id="elevateBtn" layoutX="978.0" layoutY="380.0" mnemonicParsing="false" onAction="#elevateBtn"
+                prefHeight="151.0" prefWidth="235.0">
+            <font>
+                <Font size="43.0"/>
+            </font>
+        </Button>
+        <Text fill="WHITE" layoutX="1032.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elevate"
+              textAlignment="CENTER">
+            <font>
+                <Font size="37.0"/>
+            </font>
+        </Text>
+        <Text fx:id="capacityText" layoutX="1117.0" layoutY="652.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6"
+              textAlignment="JUSTIFY" wrappingWidth="100.0">
+            <font>
+                <Font name="Digital-7" size="63.0"/>
+            </font>
+        </Text>
+        <Text fx:id="timeText" layoutX="1117.0" layoutY="739.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"
+              textAlignment="JUSTIFY" wrappingWidth="100.0">
+            <font>
+                <Font name="Digital-7" size="63.0"/>
+            </font>
+        </Text>
+        <Button fx:id="reportBtn" layoutX="790.0" layoutY="400.0" mnemonicParsing="false" onAction="#generateReportBtn"
+                prefHeight="110.0" prefWidth="126.0">
+            <font>
+                <Font size="43.0"/>
+            </font>
+        </Button>
+        <Text fill="WHITE" layoutX="792.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gen Report"
+              textAlignment="CENTER" wrappingWidth="125.34789895992071">
+            <font>
+                <Font size="31.0"/>
+            </font>
+        </Text>
+        <Text fx:id="levelText" fill="WHITE" layoutX="316.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="0" textAlignment="CENTER" wrappingWidth="300.0">
+            <font>
+                <Font name="Digital-7" size="350.0"/>
+            </font>
+        </Text>
+        <Circle fx:id="requestStatus" fill="#e4e4e4" layoutX="1095.0" layoutY="564.0" radius="11.0" stroke="BLACK"
+                strokeType="INSIDE"/>
+    </children>
+</AnchorPane>
